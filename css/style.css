@@ -6,9 +6,109 @@
 }
 
 :root {
-    font-family: "Lato", sans-serif;
+    font-family: "Arial", sans-serif;
 	font-size: 14px;
+	padding: 8px;
+	font-weight: 400;
 }
 
-/* contenuto */
 
+
+/* tipografia */
+.prdct-name {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.price {
+	color: red;
+	font-weight: 600;
+}
+
+.old-price {
+	color: black;
+	text-decoration: line-through;
+	font-weight: 400;
+}
+
+.col p {
+	margin-top: 4px;
+}
+
+
+
+/* contenuto */
+main {
+	margin: 48px auto;
+}
+
+.col {
+	width: 480px;
+	display: inline-block;
+}
+
+.img-box{
+	height: 690px;
+	width: 480px;
+	margin-bottom: 16px;
+	position: relative;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	position: absolute;
+	transition: opacity 0.3s;
+}
+
+.lbl-white {
+	background-color: white;
+	height: 48px;
+	width: 48px;
+	position: absolute;
+	left: calc(100% - 48px);
+	top: 24px;
+	font-size: 30px;
+	text-align: center;
+	z-index: 3;
+}
+
+.discount {
+	position: absolute;
+	bottom: 24px;
+	z-index: 3;
+}
+
+.lbl {
+	margin-right: 4px;
+	color: white;
+	font-weight: 700;
+	display: inline-block;
+	padding: 4px;
+}
+
+.lbl-red {
+	background-color: red;
+}
+
+.lbl-green {
+	background-color: green;
+}
+
+.v-center {
+	vertical-align: sub;
+}
+
+
+
+/* hovering */
+.col:hover .img-base {
+	opacity: 0;
+}
+
+.col:hover .img-hov {
+	opacity: 1;
+	transition: opacity 0.3s;
+}
