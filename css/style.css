@@ -23,6 +23,7 @@
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 16px;
+	display: block;
 }
 
 .price {
@@ -36,7 +37,7 @@
 	font-weight: 400;
 }
 
-.col p {
+.col p, .prdct-name {
 	margin-top: 4px;
 }
 
