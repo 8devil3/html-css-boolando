@@ -45,17 +45,17 @@
 /* contenuto */
 main {
 	margin: 0 auto 24px auto;
-	max-width: fit-content;
+	max-width: calc((375px * 3) + 32px);
 }
 
 .col {
-	width: 480px;
+	width: 375px;
 	display: inline-block;
 	margin: 48px 16px 0 0;
 }
 
 .col:last-child {
-	margin: 48px 0 0 0
+	margin: 48px 0 0 0;
 }
 
 .img-box {
