@@ -69,6 +69,7 @@ main {
     width: 360px;
     display: inline-block;
     margin: 48px 16px 0 0;
+    vertical-align: top;
 }
 
 .col:last-child {
