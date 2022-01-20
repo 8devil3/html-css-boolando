@@ -42,6 +42,21 @@
 
 
 
+/* link */
+a {
+	text-decoration: none;
+	color: black;
+	transition: 0.3s;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #999;
+}
+
+
+
+
 /* contenuto */
 main {
 	margin: 0 auto 24px auto;
@@ -82,6 +97,7 @@ img {
 	font-size: 30px;
 	text-align: center;
 	z-index: 3;
+	color: black;
 }
 
 .discount {
@@ -119,7 +135,7 @@ img {
 
 
 
-/* hovering */
+/* card hovering */
 .col:hover .img-base {
 	opacity: 0;
 }
@@ -129,12 +145,12 @@ img {
 	transition: opacity 0.3s;
 }
 
-.favorite a {
+.favorite {
 	color: black;
 	text-decoration: none;
 	transition: color 0.1s;
 }
 
-.favorite a:hover{
+.favorite:hover{
 	color: red;
 }
