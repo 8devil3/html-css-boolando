@@ -15,6 +15,10 @@
 
 
 /* tipografia */
+.brand {
+	text-transform: capitalize;
+}
+
 .prdct-name {
 	text-transform: uppercase;
 	font-weight: 700;
@@ -40,18 +44,24 @@
 
 /* contenuto */
 main {
-	margin: 48px auto;
+	margin: 0 auto 24px auto;
+	max-width: fit-content;
 }
 
 .col {
 	width: 480px;
 	display: inline-block;
+	margin: 48px 16px 0 0;
 }
 
-.img-box{
+.col:last-child {
+	margin: 48px 0 0 0
+}
+
+.img-box {
 	height: 690px;
 	width: 480px;
-	margin-bottom: 16px;
+	margin-bottom: 8px;
 	position: relative;
 }
 
@@ -97,8 +107,15 @@ img {
 	background-color: green;
 }
 
+
+
+/* propretà specifiche */
 .v-center {
 	vertical-align: sub;
+}
+
+.not-show {
+	display: none;
 }
 
 
