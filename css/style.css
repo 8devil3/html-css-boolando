@@ -95,7 +95,7 @@ img {
     height: 48px;
     width: 48px;
     position: absolute;
-    left: calc(100% - 48px);
+    right: 0;
     top: 24px;
     font-size: 30px;
     text-align: center;
