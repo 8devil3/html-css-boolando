@@ -99,14 +99,12 @@ img {
     top: 24px;
     font-size: 30px;
     text-align: center;
-    z-index: 3;
     color: black;
 }
 
 .discount {
     position: absolute;
     bottom: 24px;
-    z-index: 3;
 }
 
 .lbl {
